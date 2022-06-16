@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getRoll",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "r",
+						"type": "uint256"
+					}
+				],
+				"name": "setRoll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/8_Error_Handling.sol": "Error_Handling"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/8_Error_Handling.sol": {
+			"keccak256": "0x956433fee09b7b8a503a488ee0dfa6f1c8477e10e2b23ed94fb7a18ec43b6fb7",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://9711144215720ca332ebdc291b84729b929c17f650013fc2983bc71c78f6e805",
+				"dweb:/ipfs/QmcXBTTDg2ufg2vGkyYEDNoH5sG178QauKXGdcFpgCmuL4"
+			]
+		}
+	},
+	"version": 1
+}
